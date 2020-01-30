@@ -1,2 +1,2 @@
-html{margin:0;padding:0;font-size:62.5%;-webkit-box-sizing:border-box;box-sizing:border-box;font-family:"Josefin Sans", sans-serif}body{background-color:color(black)}.splash-img-sect{height:135vh}.splash-img{height:137vh}
+html{margin:0 auto;padding:0;font-size:62.5%;-webkit-box-sizing:border-box;box-sizing:border-box;font-family:"Josefin Sans", sans-serif}body{background-image:url(/dist/media/ny-splash-pg.jpg)}.splash-img-sect{height:130vh;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.splash-img{height:130vh}.title{position:relative}
 /*# sourceMappingURL=main.min.css.map */

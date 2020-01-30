@@ -1,5 +1,5 @@
 html {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   font-size: 62.5%;
   -webkit-box-sizing: border-box;
@@ -11,14 +11,24 @@ html {
 }
 
 body {
-  background-color: color(black);
+  background-image: url(/dist/media/ny-splash-pg.jpg);
 }
 
 .splash-img-sect {
-  height: 135vh;
+  height: 130vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .splash-img {
-  height: 137vh;
+  height: 130vh;
+}
+
+.title {
+  position: relative;
 }
 /*# sourceMappingURL=main.css.map */
