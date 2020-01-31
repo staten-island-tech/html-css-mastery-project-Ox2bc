@@ -25,5 +25,15 @@ body {
     1px -1px 0 #000,
     -1px 1px 0 #000,
     1px 1px 0 #000;
-    
+  animation-name: title-slide;
+  animation-duration: 3s ease-in-ease-out;
+}
+
+@keyframes title-slide {
+  0%{
+
+  }
+  100%{
+    transform: translateY(15rem);
+  }
 }
