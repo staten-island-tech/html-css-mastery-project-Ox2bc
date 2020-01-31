@@ -11,24 +11,19 @@ html {
 }
 
 body {
-  background-image: url(/dist/media/ny-splash-pg.jpg);
-}
-
-.splash-img-sect {
-  height: 130vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.splash-img {
-  height: 130vh;
+  background-image: url(https://cdn.pixabay.com/photo/2016/02/19/11/51/world-trade-center-1210003_960_720.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-text-emphasis: bold;
+          text-emphasis: bold;
 }
 
 .title {
-  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-size: 5rem;
 }
 /*# sourceMappingURL=main.css.map */
