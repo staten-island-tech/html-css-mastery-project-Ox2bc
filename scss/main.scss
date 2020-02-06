@@ -61,3 +61,24 @@ body {
   justify-content: space-around;
   font-size: 5rem;
 }
+
+.music-control{
+  position: absolute;
+  right: 0;
+}
+
+.manhattan-card{
+
+  display: flex;
+  justify-content: space-around;
+}
+
+.manhattan-text:hover{
+  background-image: url(https://cdn.pixabay.com/photo/2014/05/03/00/30/new-336574_960_720.jpg);
+}
+
+.manhattan-text{
+  background-color: beige;
+  height: 40vh;
+  width: 10vw;
+}
