@@ -36,7 +36,7 @@ body {
       justify-content: space-around;
   font-size: 5rem;
   color: white;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   -webkit-animation-name: title-slide;
           animation-name: title-slide;
   -webkit-animation-duration: 15s;
@@ -88,24 +88,54 @@ body {
   right: 0;
 }
 
+.bold-title {
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.card-sect {
+  height: 1200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
 .man-card {
   -webkit-perspective: 150rem;
           perspective: 150rem;
+  height: 65vh;
+  width: 20rem;
   position: relative;
   margin-top: 50px;
   margin-left: auto;
   margin-right: auto;
+  display: inline-block;
 }
 
 .man-card-side {
-  height: 500px;
-  width: 300px;
-  font-size: 15px;
+  height: 65vh;
+  width: 20rem;
+  font-size: 3rem;
   color: black;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
   -webkit-box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
           box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .man-card-side-front {
@@ -120,6 +150,7 @@ body {
 
 .man-card-side-back {
   background-color: whitesmoke;
+  font-size: 2rem;
   position: absolute;
   top: 0;
   left: 0;
@@ -136,6 +167,282 @@ body {
 }
 
 .man-card:hover .man-card-side-back {
+  -webkit-transform: rotateY(0deg);
+          transform: rotateY(0deg);
+}
+
+.bklyn-card {
+  -webkit-perspective: 150rem;
+          perspective: 150rem;
+  height: 65vh;
+  width: 20rem;
+  position: relative;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+}
+
+.bklyn-card-side {
+  height: 65vh;
+  width: 20rem;
+  font-size: 3rem;
+  color: black;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+          box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bklyn-card-side-front {
+  background-color: whitesmoke;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.bklyn-card-side-back {
+  background-color: whitesmoke;
+  font-size: 2rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  -webkit-transform: rotateY(-180deg);
+          transform: rotateY(-180deg);
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.bklyn-card:hover .bklyn-card-side-front {
+  -webkit-transform: rotateY(-180deg);
+          transform: rotateY(-180deg);
+}
+
+.bklyn-card:hover .bklyn-card-side-back {
+  -webkit-transform: rotateY(0deg);
+          transform: rotateY(0deg);
+}
+
+.SI-card {
+  -webkit-perspective: 150rem;
+          perspective: 150rem;
+  height: 65vh;
+  width: 20rem;
+  position: relative;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+}
+
+.SI-card-side {
+  height: 65vh;
+  width: 20rem;
+  font-size: 3rem;
+  color: black;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+          box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.SI-card-side-front {
+  background-color: whitesmoke;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.SI-card-side-back {
+  background-color: whitesmoke;
+  font-size: 2rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  -webkit-transform: rotateY(-180deg);
+          transform: rotateY(-180deg);
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.SI-card:hover .SI-card-side-front {
+  -webkit-transform: rotateY(-180deg);
+          transform: rotateY(-180deg);
+}
+
+.SI-card:hover .SI-card-side-back {
+  -webkit-transform: rotateY(0deg);
+          transform: rotateY(0deg);
+}
+
+.Q-card {
+  -webkit-perspective: 150rem;
+          perspective: 150rem;
+  height: 65vh;
+  width: 20rem;
+  position: relative;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+}
+
+.Q-card-side {
+  height: 65vh;
+  width: 20rem;
+  font-size: 3rem;
+  color: black;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+          box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Q-card-side-front {
+  background-color: whitesmoke;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.Q-card-side-back {
+  background-color: whitesmoke;
+  font-size: 2rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  -webkit-transform: rotateY(-180deg);
+          transform: rotateY(-180deg);
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.Q-card:hover .Q-card-side-front {
+  -webkit-transform: rotateY(-180deg);
+          transform: rotateY(-180deg);
+}
+
+.Q-card:hover .Q-card-side-back {
+  -webkit-transform: rotateY(0deg);
+          transform: rotateY(0deg);
+}
+
+.Bx-card {
+  -webkit-perspective: 150rem;
+          perspective: 150rem;
+  height: 65vh;
+  width: 20rem;
+  position: relative;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+}
+
+.Bx-card-side {
+  height: 65vh;
+  width: 20rem;
+  font-size: 3rem;
+  color: black;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+          box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Bx-card-side-front {
+  background-color: whitesmoke;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.Bx-card-side-back {
+  background-color: whitesmoke;
+  font-size: 2rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  -webkit-transform: rotateY(-180deg);
+          transform: rotateY(-180deg);
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.Bx-card:hover .Bx-card-side-front {
+  -webkit-transform: rotateY(-180deg);
+          transform: rotateY(-180deg);
+}
+
+.Bx-card:hover .Bx-card-side-back {
   -webkit-transform: rotateY(0deg);
           transform: rotateY(0deg);
 }

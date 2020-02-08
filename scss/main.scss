@@ -28,7 +28,7 @@ body {
   justify-content: space-around;
   font-size: 5rem;
     color: white;
-    text-shadow:
+    text-shadow: 
     -1px -1px 0 #000,
     1px -1px 0 #000,
     -1px 1px 0 #000,
@@ -67,21 +67,39 @@ body {
   right: 0;
 }
 
+.bold-title{
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.card-sect{
+  height: 1200px;
+  display: flex;
+  justify-content: space-around;
+}
+
 .man-card{
   perspective: 150rem;
+  height: 65vh;
+  width: 20rem;
   position: relative;
   margin-top: 50px;
   margin-left: auto;
   margin-right: auto;
+  display: inline-block;
 }
 
 .man-card-side{
-  height: 500px;
-  width: 300px;
-  font-size: 15px;
+  height: 65vh;
+  width: 20rem;
+  font-size: 3rem;
   color: black;
   backface-visibility: hidden;
   box-shadow: 0 1.5rem 4rem rgba(0,0,0,0.15);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .man-card-side-front{
@@ -95,6 +113,7 @@ body {
 
 .man-card-side-back{
   background-color: whitesmoke;
+  font-size: 2rem;
   position: absolute;
   top: 0;
   left: 0;
@@ -108,5 +127,212 @@ body {
 }
 
 .man-card:hover .man-card-side-back{
+  transform: rotateY(0deg);
+}
+
+.bklyn-card{
+  perspective: 150rem;
+  height: 65vh;
+  width: 20rem;
+  position: relative;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+}
+
+.bklyn-card-side{
+  height: 65vh;
+  width: 20rem;
+  font-size: 3rem;
+  color: black;
+  backface-visibility: hidden;
+  box-shadow: 0 1.5rem 4rem rgba(0,0,0,0.15);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bklyn-card-side-front{
+  background-color: whitesmoke;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  transition: all 1s;
+}
+
+.bklyn-card-side-back{
+  background-color: whitesmoke;
+  font-size: 2rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  transform: rotateY(-180deg);
+  transition: all 1s;
+}
+
+.bklyn-card:hover .bklyn-card-side-front{
+  transform: rotateY(-180deg);
+}
+
+.bklyn-card:hover .bklyn-card-side-back{
+  transform: rotateY(0deg);
+}
+
+.SI-card{
+  perspective: 150rem;
+  height: 65vh;
+  width: 20rem;
+  position: relative;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+}
+
+.SI-card-side{
+  height: 65vh;
+  width: 20rem;
+  font-size: 3rem;
+  color: black;
+  backface-visibility: hidden;
+  box-shadow: 0 1.5rem 4rem rgba(0,0,0,0.15);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.SI-card-side-front{
+  background-color: whitesmoke;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  transition: all 1s;
+}
+
+.SI-card-side-back{
+  background-color: whitesmoke;
+  font-size: 2rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  transform: rotateY(-180deg);
+  transition: all 1s;
+}
+
+.SI-card:hover .SI-card-side-front{
+  transform: rotateY(-180deg);
+}
+
+.SI-card:hover .SI-card-side-back{
+  transform: rotateY(0deg);
+}
+
+.Q-card{
+  perspective: 150rem;
+  height: 65vh;
+  width: 20rem;
+  position: relative;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+}
+
+.Q-card-side{
+  height: 65vh;
+  width: 20rem;
+  font-size: 3rem;
+  color: black;
+  backface-visibility: hidden;
+  box-shadow: 0 1.5rem 4rem rgba(0,0,0,0.15);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Q-card-side-front{
+  background-color: whitesmoke;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  transition: all 1s;
+}
+
+.Q-card-side-back{
+  background-color: whitesmoke;
+  font-size: 2rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  transform: rotateY(-180deg);
+  transition: all 1s;
+}
+
+.Q-card:hover .Q-card-side-front{
+  transform: rotateY(-180deg);
+}
+
+.Q-card:hover .Q-card-side-back{
+  transform: rotateY(0deg);
+}
+.Bx-card{
+  perspective: 150rem;
+  height: 65vh;
+  width: 20rem;
+  position: relative;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+}
+
+.Bx-card-side{
+  height: 65vh;
+  width: 20rem;
+  font-size: 3rem;
+  color: black;
+  backface-visibility: hidden;
+  box-shadow: 0 1.5rem 4rem rgba(0,0,0,0.15);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Bx-card-side-front{
+  background-color: whitesmoke;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  transition: all 1s;
+}
+
+.Bx-card-side-back{
+  background-color: whitesmoke;
+  font-size: 2rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  transform: rotateY(-180deg);
+  transition: all 1s;
+}
+
+.Bx-card:hover .Bx-card-side-front{
+  transform: rotateY(-180deg);
+}
+
+.Bx-card:hover .Bx-card-side-back{
   transform: rotateY(0deg);
 }
