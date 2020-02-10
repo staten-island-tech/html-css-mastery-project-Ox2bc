@@ -1,3 +1,5 @@
+@import "colors.scss";
+
 html {
     margin: 0 auto;
     padding: 0;
@@ -20,21 +22,22 @@ body {
   height: 100vh;
 }
 .two-sect{
-  background-color: paleturquoise;
-  height: 100vh;
+  background-color: $primary-color;
+  height: 95vh;
 }
 .title{
   display: flex;
   justify-content: space-around;
-  font-size: 5rem;
-    color: white;
-    text-shadow: 
+  font-size: 10rem;
+  transform: translateY(15rem);
+  color: white;
+  text-shadow: 
     -1px -1px 0 #000,
     1px -1px 0 #000,
     -1px 1px 0 #000,
     1px 1px 0 #000;
   animation-name: title-slide;
-  animation-duration: 15s;
+  animation-duration: 7.5s;
 }
 
 @keyframes title-slide {
@@ -59,7 +62,12 @@ body {
 .title-2{
   display: flex;
   justify-content: space-around;
-  font-size: 5rem;
+  font-size: 10rem;
+  color: #2c2c2c;
+  letter-spacing: .5rem;
+  text-shadow: 
+    4px 4px 0px $background-color, 
+    7px 7px 0px rgba(0, 0, 0, 0.2);
 }
 
 .music-control{
@@ -68,12 +76,15 @@ body {
 }
 
 .bold-title{
-  font-weight: bold;
   font-size: 3rem;
+  color: #202020;
+  letter-spacing: .1rem;
+  text-shadow: 
+    3px 3px 1.5px #363636;
 }
 
 .card-sect{
-  height: 1200px;
+  height: 80vh;
   display: flex;
   justify-content: space-around;
 }
@@ -87,6 +98,8 @@ body {
   margin-left: auto;
   margin-right: auto;
   display: inline-block;
+  box-shadow:
+  10px 10px 5px #363536;
 }
 
 .man-card-side{
@@ -108,7 +121,15 @@ body {
   top: 0;
   left: 0;
   z-index: 1;
-  transition: all 1s;
+  transition: all 0.25s;
+}
+
+.man-card-side-front-text{
+  transform: translateY(-12.5rem);
+  color: #202020;
+  letter-spacing: .3rem;
+  text-shadow: 
+    2px 2px 1px #363636;
 }
 
 .man-card-side-back{
@@ -119,7 +140,7 @@ body {
   left: 0;
   z-index: 0;
   transform: rotateY(-180deg);
-  transition: all 1s;
+  transition: all 0.25s;
 }
 
 .man-card:hover .man-card-side-front{
@@ -139,6 +160,8 @@ body {
   margin-left: auto;
   margin-right: auto;
   display: inline-block;
+  box-shadow:
+    14px 14px 8px #363536;
 }
 
 .bklyn-card-side{
@@ -160,7 +183,15 @@ body {
   top: 0;
   left: 0;
   z-index: 1;
-  transition: all 1s;
+  transition: all 0.25s;
+}
+
+.bklyn-card-side-front-text{
+  transform: translateY(-12.5rem);
+  color: #202020;
+  letter-spacing: .3rem;
+  text-shadow: 
+    2px 2px 1px #363636;
 }
 
 .bklyn-card-side-back{
@@ -171,7 +202,7 @@ body {
   left: 0;
   z-index: 0;
   transform: rotateY(-180deg);
-  transition: all 1s;
+  transition: all 0.25s;
 }
 
 .bklyn-card:hover .bklyn-card-side-front{
@@ -190,7 +221,9 @@ body {
   margin-top: 50px;
   margin-left: auto;
   margin-right: auto;
-  display: inline-block;
+  display: inline-block;  
+  box-shadow:
+    18px 18px 11px #363536;
 }
 
 .SI-card-side{
@@ -212,7 +245,15 @@ body {
   top: 0;
   left: 0;
   z-index: 1;
-  transition: all 1s;
+  transition: all 0.25s;
+}
+
+.SI-card-side-front-text{
+  transform: translateY(-12.5rem);
+  color: #202020;
+  letter-spacing: .1rem;
+  text-shadow: 
+    2px 2px 1px #363636;
 }
 
 .SI-card-side-back{
@@ -223,7 +264,7 @@ body {
   left: 0;
   z-index: 0;
   transform: rotateY(-180deg);
-  transition: all 1s;
+  transition: all 0.25s;
 }
 
 .SI-card:hover .SI-card-side-front{
@@ -243,6 +284,8 @@ body {
   margin-left: auto;
   margin-right: auto;
   display: inline-block;
+  box-shadow:
+    22px 22px 14px #363536;
 }
 
 .Q-card-side{
@@ -264,7 +307,15 @@ body {
   top: 0;
   left: 0;
   z-index: 1;
-  transition: all 1s;
+  transition: all 0.25s;
+}
+
+.Q-card-side-front-text{
+  transform: translateY(-12.5rem);
+  color: #202020;
+  letter-spacing: .3rem;
+  text-shadow: 
+    2px 2px 1px #363636;
 }
 
 .Q-card-side-back{
@@ -275,7 +326,7 @@ body {
   left: 0;
   z-index: 0;
   transform: rotateY(-180deg);
-  transition: all 1s;
+  transition: all 0.25s;
 }
 
 .Q-card:hover .Q-card-side-front{
@@ -294,6 +345,8 @@ body {
   margin-left: auto;
   margin-right: auto;
   display: inline-block;
+  box-shadow:
+    26px 26px 17px #363536;
 }
 
 .Bx-card-side{
@@ -315,7 +368,15 @@ body {
   top: 0;
   left: 0;
   z-index: 1;
-  transition: all 1s;
+  transition: all 0.25s;
+}
+
+.Bx-card-side-front-text{
+  transform: translateY(-12.5rem);
+  color: #202020;
+  letter-spacing: .3rem;
+  text-shadow: 
+    2px 2px 1px #363636;
 }
 
 .Bx-card-side-back{
@@ -326,7 +387,7 @@ body {
   left: 0;
   z-index: 0;
   transform: rotateY(-180deg);
-  transition: all 1s;
+  transition: all 0.25s;
 }
 
 .Bx-card:hover .Bx-card-side-front{
@@ -335,4 +396,9 @@ body {
 
 .Bx-card:hover .Bx-card-side-back{
   transform: rotateY(0deg);
+}
+
+.three-sect{
+  height: 95vh;
+  background-color: $triadic-color-1;
 }

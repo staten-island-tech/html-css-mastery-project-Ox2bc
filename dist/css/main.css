@@ -24,8 +24,8 @@ body {
 }
 
 .two-sect {
-  background-color: paleturquoise;
-  height: 100vh;
+  background-color: #8cdbde;
+  height: 95vh;
 }
 
 .title {
@@ -34,13 +34,15 @@ body {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  font-size: 5rem;
+  font-size: 10rem;
+  -webkit-transform: translateY(15rem);
+          transform: translateY(15rem);
   color: white;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   -webkit-animation-name: title-slide;
           animation-name: title-slide;
-  -webkit-animation-duration: 15s;
-          animation-duration: 15s;
+  -webkit-animation-duration: 7.5s;
+          animation-duration: 7.5s;
 }
 
 @-webkit-keyframes title-slide {
@@ -80,7 +82,10 @@ body {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  font-size: 5rem;
+  font-size: 10rem;
+  color: #2c2c2c;
+  letter-spacing: .5rem;
+  text-shadow: 4px 4px 0px #d5d5d5, 7px 7px 0px rgba(0, 0, 0, 0.2);
 }
 
 .music-control {
@@ -89,12 +94,14 @@ body {
 }
 
 .bold-title {
-  font-weight: bold;
   font-size: 3rem;
+  color: #202020;
+  letter-spacing: .1rem;
+  text-shadow: 3px 3px 1.5px #363636;
 }
 
 .card-sect {
-  height: 1200px;
+  height: 80vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -112,6 +119,8 @@ body {
   margin-left: auto;
   margin-right: auto;
   display: inline-block;
+  -webkit-box-shadow: 10px 10px 5px #363536;
+          box-shadow: 10px 10px 5px #363536;
 }
 
 .man-card-side {
@@ -144,8 +153,16 @@ body {
   top: 0;
   left: 0;
   z-index: 1;
-  -webkit-transition: all 1s;
-  transition: all 1s;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
+}
+
+.man-card-side-front-text {
+  -webkit-transform: translateY(-12.5rem);
+          transform: translateY(-12.5rem);
+  color: #202020;
+  letter-spacing: .3rem;
+  text-shadow: 2px 2px 1px #363636;
 }
 
 .man-card-side-back {
@@ -157,8 +174,8 @@ body {
   z-index: 0;
   -webkit-transform: rotateY(-180deg);
           transform: rotateY(-180deg);
-  -webkit-transition: all 1s;
-  transition: all 1s;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
 }
 
 .man-card:hover .man-card-side-front {
@@ -181,6 +198,8 @@ body {
   margin-left: auto;
   margin-right: auto;
   display: inline-block;
+  -webkit-box-shadow: 14px 14px 8px #363536;
+          box-shadow: 14px 14px 8px #363536;
 }
 
 .bklyn-card-side {
@@ -213,8 +232,16 @@ body {
   top: 0;
   left: 0;
   z-index: 1;
-  -webkit-transition: all 1s;
-  transition: all 1s;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
+}
+
+.bklyn-card-side-front-text {
+  -webkit-transform: translateY(-12.5rem);
+          transform: translateY(-12.5rem);
+  color: #202020;
+  letter-spacing: .3rem;
+  text-shadow: 2px 2px 1px #363636;
 }
 
 .bklyn-card-side-back {
@@ -226,8 +253,8 @@ body {
   z-index: 0;
   -webkit-transform: rotateY(-180deg);
           transform: rotateY(-180deg);
-  -webkit-transition: all 1s;
-  transition: all 1s;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
 }
 
 .bklyn-card:hover .bklyn-card-side-front {
@@ -250,6 +277,8 @@ body {
   margin-left: auto;
   margin-right: auto;
   display: inline-block;
+  -webkit-box-shadow: 18px 18px 11px #363536;
+          box-shadow: 18px 18px 11px #363536;
 }
 
 .SI-card-side {
@@ -282,8 +311,16 @@ body {
   top: 0;
   left: 0;
   z-index: 1;
-  -webkit-transition: all 1s;
-  transition: all 1s;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
+}
+
+.SI-card-side-front-text {
+  -webkit-transform: translateY(-12.5rem);
+          transform: translateY(-12.5rem);
+  color: #202020;
+  letter-spacing: .1rem;
+  text-shadow: 2px 2px 1px #363636;
 }
 
 .SI-card-side-back {
@@ -295,8 +332,8 @@ body {
   z-index: 0;
   -webkit-transform: rotateY(-180deg);
           transform: rotateY(-180deg);
-  -webkit-transition: all 1s;
-  transition: all 1s;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
 }
 
 .SI-card:hover .SI-card-side-front {
@@ -319,6 +356,8 @@ body {
   margin-left: auto;
   margin-right: auto;
   display: inline-block;
+  -webkit-box-shadow: 22px 22px 14px #363536;
+          box-shadow: 22px 22px 14px #363536;
 }
 
 .Q-card-side {
@@ -351,8 +390,16 @@ body {
   top: 0;
   left: 0;
   z-index: 1;
-  -webkit-transition: all 1s;
-  transition: all 1s;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
+}
+
+.Q-card-side-front-text {
+  -webkit-transform: translateY(-12.5rem);
+          transform: translateY(-12.5rem);
+  color: #202020;
+  letter-spacing: .3rem;
+  text-shadow: 2px 2px 1px #363636;
 }
 
 .Q-card-side-back {
@@ -364,8 +411,8 @@ body {
   z-index: 0;
   -webkit-transform: rotateY(-180deg);
           transform: rotateY(-180deg);
-  -webkit-transition: all 1s;
-  transition: all 1s;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
 }
 
 .Q-card:hover .Q-card-side-front {
@@ -388,6 +435,8 @@ body {
   margin-left: auto;
   margin-right: auto;
   display: inline-block;
+  -webkit-box-shadow: 26px 26px 17px #363536;
+          box-shadow: 26px 26px 17px #363536;
 }
 
 .Bx-card-side {
@@ -420,8 +469,16 @@ body {
   top: 0;
   left: 0;
   z-index: 1;
-  -webkit-transition: all 1s;
-  transition: all 1s;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
+}
+
+.Bx-card-side-front-text {
+  -webkit-transform: translateY(-12.5rem);
+          transform: translateY(-12.5rem);
+  color: #202020;
+  letter-spacing: .3rem;
+  text-shadow: 2px 2px 1px #363636;
 }
 
 .Bx-card-side-back {
@@ -433,8 +490,8 @@ body {
   z-index: 0;
   -webkit-transform: rotateY(-180deg);
           transform: rotateY(-180deg);
-  -webkit-transition: all 1s;
-  transition: all 1s;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
 }
 
 .Bx-card:hover .Bx-card-side-front {
@@ -445,5 +502,10 @@ body {
 .Bx-card:hover .Bx-card-side-back {
   -webkit-transform: rotateY(0deg);
           transform: rotateY(0deg);
+}
+
+.three-sect {
+  height: 95vh;
+  background-color: #8f8cde;
 }
 /*# sourceMappingURL=main.css.map */
