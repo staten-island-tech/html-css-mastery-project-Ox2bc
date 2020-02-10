@@ -1,0 +1,25 @@
+$laptop: 900px;
+$tablet: 600px;
+$phone: 450px;
+
+@mixin laptop {
+    @media(max-width:#{$laptop}){
+        @content;
+    }
+}
+
+@mixin laptop {
+    @media(max-width:#{$desktop}){
+        @content;
+    }
+}
+
+@mixin laptop {
+    @media(max-width:#{$desktop}){
+        @content;
+    }
+}
+
+
+
+
