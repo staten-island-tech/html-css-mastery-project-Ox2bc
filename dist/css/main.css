@@ -41,8 +41,9 @@ body {
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 900px) {
   .title {
+    font-size: 5rem;
     -webkit-animation-name: title-slide;
             animation-name: title-slide;
     -webkit-animation-duration: 7.5s;
@@ -50,9 +51,12 @@ body {
   }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 600px) {
   .title {
-    font-size: 5rem;
+    -webkit-animation-name: title-slide;
+            animation-name: title-slide;
+    -webkit-animation-duration: 7.5s;
+            animation-duration: 7.5s;
   }
 }
 
