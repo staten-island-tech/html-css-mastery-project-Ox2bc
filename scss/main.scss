@@ -1,4 +1,5 @@
 @import "colors.scss";
+@import "variables.scss";
 
 html {
     margin: 0 auto;
@@ -38,6 +39,9 @@ body {
     1px 1px 0 #000;
   animation-name: title-slide;
   animation-duration: 7.5s;
+  @include tablet{
+    font-size: 5rem;
+  }
 }
 
 @keyframes title-slide {
@@ -78,6 +82,9 @@ body {
 
 audio{
   height: 4rem;
+@include tablet{
+  height: 3rem;
+}
 }
 
 .bold-title{
@@ -105,6 +112,9 @@ audio{
   display: inline-block;
   box-shadow:
   10px 10px 5px #363536;
+  @include tablet {
+    height: 50vh;
+  }
 }
 
 .man-card-side{
@@ -150,6 +160,7 @@ audio{
 
 .man-card:hover .man-card-side-front{
   transform: rotateY(-180deg);
+  z-index: 2;
 }
 
 .man-card:hover .man-card-side-back{

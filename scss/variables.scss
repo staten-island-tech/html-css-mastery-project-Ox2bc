@@ -1,6 +1,6 @@
-$laptop: 900px;
-$tablet: 600px;
-$phone: 450px;
+$laptop: 1200px;
+$tablet: 900px;
+$phone: 600px;
 
 @mixin laptop {
     @media(max-width:#{$laptop}){
@@ -8,14 +8,14 @@ $phone: 450px;
     }
 }
 
-@mixin laptop {
-    @media(max-width:#{$desktop}){
+@mixin tablet {
+    @media(max-width:#{$tablet}){
         @content;
     }
 }
 
-@mixin laptop {
-    @media(max-width:#{$desktop}){
+@mixin phone {
+    @media(max-width:#{$phone}){
         @content;
     }
 }

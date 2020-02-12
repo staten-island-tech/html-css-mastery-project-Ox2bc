@@ -45,6 +45,12 @@ body {
           animation-duration: 7.5s;
 }
 
+@media (max-width: 900px) {
+  .title {
+    font-size: 5rem;
+  }
+}
+
 @-webkit-keyframes title-slide {
   0% {
     font-size: 5rem;
@@ -98,6 +104,12 @@ audio {
   height: 4rem;
 }
 
+@media (max-width: 900px) {
+  audio {
+    height: 3rem;
+  }
+}
+
 .bold-title {
   font-size: 3rem;
   color: #202020;
@@ -126,6 +138,12 @@ audio {
   display: inline-block;
   -webkit-box-shadow: 10px 10px 5px #363536;
           box-shadow: 10px 10px 5px #363536;
+}
+
+@media (max-width: 900px) {
+  .man-card {
+    height: 50vh;
+  }
 }
 
 .man-card-side {
@@ -186,6 +204,7 @@ audio {
 .man-card:hover .man-card-side-front {
   -webkit-transform: rotateY(-180deg);
           transform: rotateY(-180deg);
+  z-index: 2;
 }
 
 .man-card:hover .man-card-side-back {
