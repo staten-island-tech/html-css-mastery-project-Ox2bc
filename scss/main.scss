@@ -37,15 +37,13 @@ body {
     1px -1px 0 #000,
     -1px 1px 0 #000,
     1px 1px 0 #000;
-  @include laptop{
-
+  @include phone{
+    font-size: 3rem;
   }
   @include tablet{
     font-size: 5rem;
-    animation-name: title-slide;
-    animation-duration: 7.5s;
   }
-  @include phone{
+  @include laptop{
     animation-name: title-slide;
     animation-duration: 7.5s;
   }
