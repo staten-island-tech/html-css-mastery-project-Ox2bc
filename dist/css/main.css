@@ -41,19 +41,19 @@ body {
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
-@media (max-width: 600px) {
+@media (min-width: 600px) {
   .title {
     font-size: 3rem;
   }
 }
 
-@media (max-width: 900px) {
+@media (min-width: 900px) {
   .title {
     font-size: 5rem;
   }
 }
 
-@media (max-width: 1200px) {
+@media (min-width: 1200px) {
   .title {
     -webkit-animation-name: title-slide;
             animation-name: title-slide;
@@ -115,7 +115,7 @@ audio {
   height: 4rem;
 }
 
-@media (max-width: 900px) {
+@media (min-width: 900px) {
   audio {
     height: 3rem;
   }
@@ -151,7 +151,7 @@ audio {
           box-shadow: 10px 10px 5px #363536;
 }
 
-@media (max-width: 900px) {
+@media (min-width: 900px) {
   .man-card {
     height: 50vh;
   }

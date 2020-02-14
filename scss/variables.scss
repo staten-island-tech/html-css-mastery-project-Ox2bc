@@ -3,19 +3,19 @@ $tablet: 900px;
 $phone: 600px;
 
 @mixin laptop {
-    @media(max-width:#{$laptop}){
+    @media(min-width:#{$laptop}){
         @content;
     }
 }
 
 @mixin tablet {
-    @media(max-width:#{$tablet}){
+    @media(min-width:#{$tablet}){
         @content;
     }
 }
 
 @mixin phone {
-    @media(max-width:#{$phone}){
+    @media(min-width:#{$phone}){
         @content;
     }
 }
