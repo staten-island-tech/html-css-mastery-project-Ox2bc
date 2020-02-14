@@ -25,6 +25,15 @@ body {
 .two-sect{
   background-color: $primary-color;
   height: 95vh;
+  @include phone {
+    height: 365vh;
+  }
+  @include tablet {
+    height: 95vh;
+  }
+  @include laptop {
+    height: 95vh;
+  }
 }
 .title{
   display: flex;
@@ -38,14 +47,15 @@ body {
     -1px 1px 0 #000,
     1px 1px 0 #000;
   @include phone{
-    font-size: 3rem;
+    font-size: 4rem;
   }
   @include tablet{
-    font-size: 5rem;
+    font-size: 7rem;
   }
   @include laptop{
     animation-name: title-slide;
     animation-duration: 7.5s;
+    font-size: 10rem;
   }
 }
 
@@ -77,18 +87,32 @@ body {
   text-shadow: 
     4px 4px 0px $background-color, 
     7px 7px 0px rgba(0, 0, 0, 0.2);
+  @include phone {
+    font-size: 3rem;
+  }
+  @include tablet {
+    font-size: 5rem;
+  }
+  @include laptop { 
+    font-size: 10rem;
+  }
 }
 
 .music-control{
   position: absolute;
   right: 0;
-  height: 2rem;
 }
 
 audio{
   height: 4rem;
+@include phone {
+  height: 2rem;
+}
 @include tablet{
   height: 3rem;
+}
+@include laptop{
+  height: 4rem;
 }
 }
 
@@ -98,12 +122,33 @@ audio{
   letter-spacing: .1rem;
   text-shadow: 
     3px 3px 1.5px #363636;
+  @include phone {
+    font-size: 2rem;
+  }
+  @include tablet {
+    font-size: 2.5rem;
+  }
+  @include laptop {
+    font-size: 3rem;
+  }
 }
 
 .card-sect{
   height: 80vh;
   display: flex;
   justify-content: space-around;
+  @include phone {
+    flex-direction: column;
+    height: 350vh;
+  }
+  @include tablet {
+    height: 80vh;
+    flex-direction: row;
+  }
+  @include laptop {
+    height: 80vh;
+    flex-direction: row;
+  }
 }
 
 .man-card{
@@ -117,9 +162,6 @@ audio{
   display: inline-block;
   box-shadow:
   10px 10px 5px #363536;
-  @include tablet {
-    height: 50vh;
-  }
 }
 
 .man-card-side{

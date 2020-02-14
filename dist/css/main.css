@@ -28,6 +28,24 @@ body {
   height: 95vh;
 }
 
+@media (min-width: 350px) {
+  .two-sect {
+    height: 365vh;
+  }
+}
+
+@media (min-width: 750px) {
+  .two-sect {
+    height: 95vh;
+  }
+}
+
+@media (min-width: 1100px) {
+  .two-sect {
+    height: 95vh;
+  }
+}
+
 .title {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -38,27 +56,28 @@ body {
   -webkit-transform: translateY(15rem);
           transform: translateY(15rem);
   color: white;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 350px) {
   .title {
-    font-size: 3rem;
+    font-size: 4rem;
   }
 }
 
-@media (min-width: 900px) {
+@media (min-width: 750px) {
   .title {
-    font-size: 5rem;
+    font-size: 7rem;
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1100px) {
   .title {
     -webkit-animation-name: title-slide;
             animation-name: title-slide;
     -webkit-animation-duration: 7.5s;
             animation-duration: 7.5s;
+    font-size: 10rem;
   }
 }
 
@@ -105,19 +124,48 @@ body {
   text-shadow: 4px 4px 0px #d5d5d5, 7px 7px 0px rgba(0, 0, 0, 0.2);
 }
 
+@media (min-width: 350px) {
+  .title-2 {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 750px) {
+  .title-2 {
+    font-size: 5rem;
+  }
+}
+
+@media (min-width: 1100px) {
+  .title-2 {
+    font-size: 10rem;
+  }
+}
+
 .music-control {
   position: absolute;
   right: 0;
-  height: 2rem;
 }
 
 audio {
   height: 4rem;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 350px) {
+  audio {
+    height: 2rem;
+  }
+}
+
+@media (min-width: 750px) {
   audio {
     height: 3rem;
+  }
+}
+
+@media (min-width: 1100px) {
+  audio {
+    height: 4rem;
   }
 }
 
@@ -128,6 +176,24 @@ audio {
   text-shadow: 3px 3px 1.5px #363636;
 }
 
+@media (min-width: 350px) {
+  .bold-title {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 750px) {
+  .bold-title {
+    font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 1100px) {
+  .bold-title {
+    font-size: 3rem;
+  }
+}
+
 .card-sect {
   height: 80vh;
   display: -webkit-box;
@@ -135,6 +201,36 @@ audio {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+}
+
+@media (min-width: 350px) {
+  .card-sect {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 350vh;
+  }
+}
+
+@media (min-width: 750px) {
+  .card-sect {
+    height: 80vh;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+@media (min-width: 1100px) {
+  .card-sect {
+    height: 80vh;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
 }
 
 .man-card {
@@ -149,12 +245,6 @@ audio {
   display: inline-block;
   -webkit-box-shadow: 10px 10px 5px #363536;
           box-shadow: 10px 10px 5px #363536;
-}
-
-@media (min-width: 900px) {
-  .man-card {
-    height: 50vh;
-  }
 }
 
 .man-card-side {
