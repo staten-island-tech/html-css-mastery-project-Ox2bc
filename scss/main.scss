@@ -464,10 +464,10 @@ audio{
 .three-sect{
   height: 95vh;
   background-color: $triadic-color-1;
-  @include phone{
-    height: 95vh;
+  @include phone {
+    height: 165vh;
   }
-  @include tablet{
+  @include tablet {
     height: 95vh;
   }
   @include laptop{
@@ -499,9 +499,7 @@ audio{
   position: relative;
   @include phone {
     position: relative;
-    display: flex;
-    flex-direction: column;
-    height: 95vh;
+    height: 125vh;
   }
   @include tablet {
     position: relative;
@@ -522,10 +520,9 @@ audio{
 .times-sq{
   top: 10rem;
   left: 17rem;
-  height: 40rem;
   @include phone {
-    height: 20rem;
-    left: 10rem;
+    width: 20rem;
+    left: 8rem;
     top: 5rem;
   }
   @include tablet {
@@ -543,19 +540,61 @@ audio{
 .bklyn-br{
   top: 10rem;
   left: 40rem;
-  height: 40rem;
+  @include phone {
+    top: 35rem;
+    left: 8rem;
+    width: 20rem;
+  }
+  @include tablet {
+    top: 10rem;
+    left: 40rem;
+    height: 30rem;
+  }
+  @include laptop {
+    top: 10rem;
+    left: 40rem;
+    height: 40rem;
+  }
 }
 
 .man-br{
   top: 10rem;
   left: 66rem;
-  height: 40rem;
+  @include phone {
+    top: 65.66rem;
+    left: 8rem;
+    width: 20rem;
+  }
+  @include tablet {
+    top: 10rem;
+    left: 66rem;
+    height: 40rem;
+  }
+  @include laptop {
+    top: 10rem;
+    left: 66rem;
+    height: 40rem;
+  }
 }
 
 .liberty{
   top: 10rem;
   right: 17rem;
-  height: 40rem;
+  @include phone {
+    top: 91.33rem;
+    left: 8rem;
+    width: 20rem;
+  }
+  @include tablet {
+    top: 10rem;
+    right: 17rem;
+    height: 30rem;
+  }
+  @include laptop {
+    top: 10rem;
+    right: 17rem;
+    height: 40rem;
+  }
 }
 
 .gal-photo:hover {
