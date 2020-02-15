@@ -464,6 +464,15 @@ audio{
 .three-sect{
   height: 95vh;
   background-color: $triadic-color-1;
+  @include phone{
+    height: 95vh;
+  }
+  @include tablet{
+    height: 95vh;
+  }
+  @include laptop{
+    height: 95vh;
+  }
 }
 
 .title-3{
@@ -475,14 +484,36 @@ audio{
   text-shadow: 
     4px 4px 0px $background-color, 
     7px 7px 0px rgba(0, 0, 0, 0.2);
+  @include phone{
+    font-size: 3rem;
+  }
+  @include tablet{
+    font-size: 7rem;
+  }
+  @include laptop{
+    font-size: 10rem;
+  }
 }
 
 .gal-sect{
   position: relative;
+  @include phone {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 95vh;
+  }
+  @include tablet {
+    position: relative;
+    height: 95vh;
+  }
+  @include laptop {
+    position: relative;
+    height: 95vh;
+  }
 }
 
 .gal-photo{
-  height: 20rem;
   position: absolute;
   transition: all 0.3s;
   outline-offset: 1rem;
@@ -492,6 +523,21 @@ audio{
   top: 10rem;
   left: 17rem;
   height: 40rem;
+  @include phone {
+    height: 20rem;
+    left: 10rem;
+    top: 5rem;
+  }
+  @include tablet {
+    height: 30rem;
+    left: 17rem;
+    top: 10rem;
+  }
+  @include laptop {
+    height: 40rem;
+    left: 17rem;
+    top: 10rem;
+  }
 }
 
 .bklyn-br{
