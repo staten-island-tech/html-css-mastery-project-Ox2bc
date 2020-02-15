@@ -498,16 +498,13 @@ audio{
 .gal-sect{
   position: relative;
   @include phone {
-    position: relative;
     height: 125vh;
   }
   @include tablet {
-    position: relative;
-    height: 95vh;
+    height: 80vh;
   }
   @include laptop {
-    position: relative;
-    height: 95vh;
+    height: 80vh;
   }
 }
 
@@ -531,9 +528,10 @@ audio{
     top: 10rem;
   }
   @include laptop {
-    height: 40rem;
-    left: 17rem;
+    height: 50rem;
+    left: 20rem;
     top: 10rem;
+    width: 25rem;
   }
 }
 
@@ -552,8 +550,9 @@ audio{
   }
   @include laptop {
     top: 10rem;
-    left: 40rem;
-    height: 40rem;
+    left: 45rem;
+    height: 50rem;
+    width: 25rem;
   }
 }
 
@@ -567,13 +566,14 @@ audio{
   }
   @include tablet {
     top: 10rem;
-    left: 66rem;
+    left: 60rem;
     height: 40rem;
   }
   @include laptop {
     top: 10rem;
-    left: 66rem;
-    height: 40rem;
+    left: 70rem;
+    height: 50rem;
+    width: 25rem;
   }
 }
 
@@ -592,8 +592,9 @@ audio{
   }
   @include laptop {
     top: 10rem;
-    right: 17rem;
-    height: 40rem;
+    left: 95rem;
+    height: 50rem;
+    width: 25rem;
   }
 }
 
