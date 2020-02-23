@@ -524,8 +524,9 @@ audio{
   }
   @include tablet {
     height: 30rem;
-    left: 17rem;
+    left: 15rem;
     top: 10rem;
+    width: 15rem;
   }
   @include laptop {
     height: 50rem;
@@ -545,8 +546,9 @@ audio{
   }
   @include tablet {
     top: 10rem;
-    left: 40rem;
+    left: 31rem;
     height: 30rem;
+    width: 15rem;
   }
   @include laptop {
     top: 10rem;
@@ -566,8 +568,9 @@ audio{
   }
   @include tablet {
     top: 10rem;
-    left: 60rem;
-    height: 40rem;
+    left: 47rem;
+    height: 30rem;
+    width: 15rem;
   }
   @include laptop {
     top: 10rem;
@@ -587,8 +590,9 @@ audio{
   }
   @include tablet {
     top: 10rem;
-    right: 17rem;
+    left: 65rem;
     height: 30rem;
+    width: 15rem;
   }
   @include laptop {
     top: 10rem;

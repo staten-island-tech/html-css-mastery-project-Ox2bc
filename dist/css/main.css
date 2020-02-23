@@ -727,8 +727,9 @@ audio {
 @media (min-width: 750px) {
   .times-sq {
     height: 30rem;
-    left: 17rem;
+    left: 15rem;
     top: 10rem;
+    width: 15rem;
   }
 }
 
@@ -757,8 +758,9 @@ audio {
 @media (min-width: 750px) {
   .bklyn-br {
     top: 10rem;
-    left: 40rem;
+    left: 31rem;
     height: 30rem;
+    width: 15rem;
   }
 }
 
@@ -787,8 +789,9 @@ audio {
 @media (min-width: 750px) {
   .man-br {
     top: 10rem;
-    left: 60rem;
-    height: 40rem;
+    left: 47rem;
+    height: 30rem;
+    width: 15rem;
   }
 }
 
@@ -817,8 +820,9 @@ audio {
 @media (min-width: 750px) {
   .liberty {
     top: 10rem;
-    right: 17rem;
+    left: 65rem;
     height: 30rem;
+    width: 15rem;
   }
 }
 
