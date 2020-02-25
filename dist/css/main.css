@@ -40,7 +40,7 @@ body {
   }
 }
 
-@media (min-width: 1100px) {
+@media (min-width: 1400px) {
   .two-sect {
     height: 95vh;
   }
@@ -71,7 +71,7 @@ body {
   }
 }
 
-@media (min-width: 1100px) {
+@media (min-width: 1400px) {
   .title {
     -webkit-animation-name: title-slide;
             animation-name: title-slide;
@@ -136,7 +136,7 @@ body {
   }
 }
 
-@media (min-width: 1100px) {
+@media (min-width: 1400px) {
   .title-2 {
     font-size: 10rem;
   }
@@ -163,7 +163,7 @@ audio {
   }
 }
 
-@media (min-width: 1100px) {
+@media (min-width: 1400px) {
   audio {
     height: 4rem;
   }
@@ -188,7 +188,7 @@ audio {
   }
 }
 
-@media (min-width: 1100px) {
+@media (min-width: 1400px) {
   .bold-title {
     font-size: 3rem;
   }
@@ -223,7 +223,7 @@ audio {
   }
 }
 
-@media (min-width: 1100px) {
+@media (min-width: 1400px) {
   .card-sect {
     height: 80vh;
     -webkit-box-orient: horizontal;
@@ -646,7 +646,7 @@ audio {
   }
 }
 
-@media (min-width: 1100px) {
+@media (min-width: 1400px) {
   .three-sect {
     height: 95vh;
   }
@@ -676,7 +676,7 @@ audio {
   }
 }
 
-@media (min-width: 1100px) {
+@media (min-width: 1400px) {
   .title-3 {
     font-size: 10rem;
   }
@@ -698,7 +698,7 @@ audio {
   }
 }
 
-@media (min-width: 1100px) {
+@media (min-width: 1400px) {
   .gal-sect {
     height: 80vh;
   }
@@ -733,7 +733,7 @@ audio {
   }
 }
 
-@media (min-width: 1100px) {
+@media (min-width: 1400px) {
   .times-sq {
     height: 50rem;
     left: 45rem;
@@ -764,7 +764,7 @@ audio {
   }
 }
 
-@media (min-width: 1100px) {
+@media (min-width: 1400px) {
   .bklyn-br {
     top: 10rem;
     left: 72rem;
@@ -795,7 +795,7 @@ audio {
   }
 }
 
-@media (min-width: 1100px) {
+@media (min-width: 1400px) {
   .man-br {
     top: 10rem;
     left: 99rem;
@@ -826,7 +826,7 @@ audio {
   }
 }
 
-@media (min-width: 1100px) {
+@media (min-width: 1400px) {
   .liberty {
     top: 10rem;
     left: 126rem;
