@@ -56,7 +56,7 @@ body {
   -webkit-transform: translateY(15rem);
           transform: translateY(15rem);
   color: white;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 @media (min-width: 350px) {
@@ -636,7 +636,7 @@ audio {
 
 @media (min-width: 350px) {
   .three-sect {
-    height: 165vh;
+    height: 290vh;
   }
 }
 
@@ -683,155 +683,137 @@ audio {
 }
 
 .gal-sect {
-  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 @media (min-width: 350px) {
   .gal-sect {
-    height: 125vh;
+    height: 270vh;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
   }
 }
 
 @media (min-width: 750px) {
   .gal-sect {
     height: 80vh;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
   }
 }
 
 @media (min-width: 1400px) {
   .gal-sect {
     height: 80vh;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
   }
 }
 
 .gal-photo {
-  position: absolute;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   outline-offset: 1rem;
 }
 
-.times-sq {
-  top: 10rem;
-  left: 17rem;
-}
-
 @media (min-width: 350px) {
   .times-sq {
-    width: 20rem;
-    left: 8rem;
-    top: 5rem;
+    height: 65vh;
+    width: 75vw;
   }
 }
 
 @media (min-width: 750px) {
   .times-sq {
-    height: 30rem;
-    left: 15rem;
-    top: 10rem;
-    width: 15rem;
+    height: 60vh;
+    width: 17.5vw;
   }
 }
 
 @media (min-width: 1400px) {
   .times-sq {
-    height: 50rem;
-    left: 45rem;
-    top: 10rem;
-    width: 25rem;
+    height: 55vh;
+    width: 17.5vw;
   }
-}
-
-.bklyn-br {
-  top: 10rem;
-  left: 40rem;
 }
 
 @media (min-width: 350px) {
   .bklyn-br {
-    top: 35rem;
-    left: 8rem;
-    width: 20rem;
+    height: 65vh;
+    width: 75vw;
   }
 }
 
 @media (min-width: 750px) {
   .bklyn-br {
-    top: 10rem;
-    left: 31rem;
-    height: 30rem;
-    width: 15rem;
+    height: 60vh;
+    width: 17.5vw;
   }
 }
 
 @media (min-width: 1400px) {
   .bklyn-br {
-    top: 10rem;
-    left: 72rem;
-    height: 50rem;
-    width: 25rem;
+    height: 55vh;
+    width: 17.5vw;
   }
-}
-
-.man-br {
-  top: 10rem;
-  left: 66rem;
 }
 
 @media (min-width: 350px) {
   .man-br {
-    top: 65.66rem;
-    left: 8rem;
-    width: 20rem;
+    height: 65vh;
+    width: 75vw;
   }
 }
 
 @media (min-width: 750px) {
   .man-br {
-    top: 10rem;
-    left: 47rem;
-    height: 30rem;
-    width: 15rem;
+    height: 60vh;
+    width: 17.5vw;
   }
 }
 
 @media (min-width: 1400px) {
   .man-br {
-    top: 10rem;
-    left: 99rem;
-    height: 50rem;
-    width: 25rem;
+    height: 55vh;
+    width: 17.5vw;
   }
-}
-
-.liberty {
-  top: 10rem;
-  right: 17rem;
 }
 
 @media (min-width: 350px) {
   .liberty {
-    top: 91.33rem;
-    left: 8rem;
-    width: 20rem;
+    height: 65vh;
+    width: 75vw;
   }
 }
 
 @media (min-width: 750px) {
   .liberty {
-    top: 10rem;
-    left: 65rem;
-    height: 30rem;
-    width: 15rem;
+    height: 60vh;
+    width: 17.5vw;
   }
 }
 
 @media (min-width: 1400px) {
   .liberty {
-    top: 10rem;
-    left: 126rem;
-    height: 50rem;
-    width: 25rem;
+    height: 55vh;
+    width: 17.5vw;
   }
 }
 
@@ -909,14 +891,13 @@ audio {
 
 .button {
   display: inline-block;
-  background-color: lightblue;
   border: none;
   text-align: center;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  padding: 20px 40px;
-  min-width: 10vw;
-  font-size: 20px;
+  height: 20vh;
+  width: 25vw;
+  font-size: 2rem;
   font-family: sans-serif;
   color: black;
 }

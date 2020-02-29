@@ -465,7 +465,7 @@ audio{
   height: 95vh;
   background-color: $triadic-color-1;
   @include phone {
-    height: 165vh;
+    height: 290vh;
   }
   @include tablet {
     height: 95vh;
@@ -496,109 +496,87 @@ audio{
 }
 
 .gal-sect{
-  position: relative;
+  display: flex;
+  align-items: center;
   @include phone {
-    height: 125vh;
+    height: 270vh;
+    flex-direction: column;
+    justify-content: space-around;
   }
   @include tablet {
     height: 80vh;
+    flex-direction: row;
+    justify-content: space-around;
   }
   @include laptop {
     height: 80vh;
+    flex-direction: row;
+    justify-content: space-around;
   }
 }
 
 .gal-photo{
-  position: absolute;
   transition: all 0.3s;
   outline-offset: 1rem;
 }
 
 .times-sq{
-  top: 10rem;
-  left: 17rem;
   @include phone {
-    width: 20rem;
-    left: 8rem;
-    top: 5rem;
+    height: 65vh;
+    width: 75vw;
   }
   @include tablet {
-    height: 30rem;
-    left: 15rem;
-    top: 10rem;
-    width: 15rem;
+    height: 60vh;
+    width: 17.5vw;
   }
   @include laptop {
-    height: 50rem;
-    left: 45rem;
-    top: 10rem;
-    width: 25rem;
+    height: 55vh;
+    width: 17.5vw;
   }
 }
 
 .bklyn-br{
-  top: 10rem;
-  left: 40rem;
   @include phone {
-    top: 35rem;
-    left: 8rem;
-    width: 20rem;
+    height: 65vh;
+    width: 75vw;
   }
   @include tablet {
-    top: 10rem;
-    left: 31rem;
-    height: 30rem;
-    width: 15rem;
+    height: 60vh;
+    width: 17.5vw;
   }
   @include laptop {
-    top: 10rem;
-    left: 72rem;
-    height: 50rem;
-    width: 25rem;
+    height: 55vh;
+    width: 17.5vw;
   }
 }
 
 .man-br{
-  top: 10rem;
-  left: 66rem;
   @include phone {
-    top: 65.66rem;
-    left: 8rem;
-    width: 20rem;
+    height: 65vh;
+    width: 75vw;
   }
   @include tablet {
-    top: 10rem;
-    left: 47rem;
-    height: 30rem;
-    width: 15rem;
+    height: 60vh;
+    width: 17.5vw;
   }
   @include laptop {
-    top: 10rem;
-    left: 99rem;
-    height: 50rem;
-    width: 25rem;
+    height: 55vh;
+    width: 17.5vw;
   }
 }
 
 .liberty{
-  top: 10rem;
-  right: 17rem;
   @include phone {
-    top: 91.33rem;
-    left: 8rem;
-    width: 20rem;
+    height: 65vh;
+    width: 75vw;
   }
   @include tablet {
-    top: 10rem;
-    left: 65rem;
-    height: 30rem;
-    width: 15rem;
+    height: 60vh;
+    width: 17.5vw;
   }
   @include laptop {
-    top: 10rem;
-    left: 126rem;
-    height: 50rem;
-    width: 25rem;
+    height: 55vh;
+    width: 17.5vw;
   }
 }
 
@@ -657,9 +635,9 @@ audio{
   border: none;
   text-align: center;
   box-sizing: border-box;
-  padding: 20px 40px;
-  min-width: 10vw;
-  font-size: 20px;
+  height: 20vh;
+  width: 25vw;
+  font-size: 2rem;
   font-family: sans-serif;
   color: black;
 }
