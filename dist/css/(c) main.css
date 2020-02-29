@@ -887,24 +887,47 @@ audio {
 
 .button-sect {
   height: 80vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 .button {
   display: inline-block;
   border: none;
-  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   height: 20vh;
   width: 25vw;
   font-size: 2rem;
+  -webkit-box-shadow: 0 18px #999;
+          box-shadow: 0 18px #999;
   font-family: sans-serif;
   color: black;
+  text-shadow: 2px 2px 0px #d5d5d5, 3.5px 3.5px 0px rgba(0, 0, 0, 0.2);
 }
 
 .button {
   position: relative;
   overflow: hidden;
+}
+
+.button:active {
+  -webkit-box-shadow: 0 10px #666;
+          box-shadow: 0 10px #666;
+  -webkit-transform: translateY(8px);
+          transform: translateY(8px);
 }
 
 .button::after {
@@ -920,8 +943,8 @@ audio {
   /* Center the ripple */
   top: 50%;
   left: 50%;
-  -webkit-animation: ripple 1s;
-          animation: ripple 1s;
+  -webkit-animation: ripple 0.75s;
+          animation: ripple 0.75s;
   opacity: 0;
 }
 
@@ -931,7 +954,7 @@ audio {
 
 @-webkit-keyframes ripple {
   from {
-    opacity: 1;
+    opacity: 0.25;
     -webkit-transform: scale(0);
             transform: scale(0);
   }
@@ -944,7 +967,7 @@ audio {
 
 @keyframes ripple {
   from {
-    opacity: 1;
+    opacity: 0.25;
     -webkit-transform: scale(0);
             transform: scale(0);
   }
@@ -953,5 +976,11 @@ audio {
     -webkit-transform: scale(10);
             transform: scale(10);
   }
+}
+
+.flights {
+  background-image: url(https://images.unsplash.com/photo-1539201299177-2af0fae3d77f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
+  background-position: center;
+  background-size: cover;
 }
 /*# sourceMappingURL=(c) main.css.map */
