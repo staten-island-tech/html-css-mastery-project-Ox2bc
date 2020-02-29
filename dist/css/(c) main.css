@@ -833,7 +833,7 @@ audio {
 }
 
 .four-sect {
-  height: 95vh;
+  height: 105vh;
   background-color: #de8f8c;
 }
 
@@ -851,7 +851,7 @@ audio {
 
 @media (min-width: 1400px) {
   .four-sect {
-    height: 95vh;
+    height: 125vh;
   }
 }
 
@@ -886,7 +886,7 @@ audio {
 }
 
 .button-sect {
-  height: 80vh;
+  height: 110vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -908,14 +908,13 @@ audio {
           flex-direction: column;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  height: 20vh;
-  width: 25vw;
-  font-size: 2rem;
+  height: 30vh;
+  width: 50vw;
+  font-size: 2.5rem;
   -webkit-box-shadow: 0 18px #999;
           box-shadow: 0 18px #999;
   font-family: sans-serif;
-  color: black;
-  text-shadow: 2px 2px 0px #d5d5d5, 3.5px 3.5px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 5rem;
 }
 
 .button {
@@ -940,7 +939,6 @@ audio {
   height: 100px;
   margin-top: -50px;
   margin-left: -50px;
-  /* Center the ripple */
   top: 50%;
   left: 50%;
   -webkit-animation: ripple 0.75s;
@@ -982,5 +980,28 @@ audio {
   background-image: url(https://images.unsplash.com/photo-1539201299177-2af0fae3d77f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
   background-position: center;
   background-size: cover;
+  left: 10vw;
+}
+
+.hotels {
+  background-image: url(https://images.unsplash.com/photo-1517840901100-8179e982acb7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80);
+  background-position: center;
+  background-size: cover;
+  left: 25vw;
+}
+
+.cars {
+  background-image: url(https://images.unsplash.com/photo-1503376780353-7e6692767b70?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60);
+  background-position: center;
+  background-size: cover;
+  left: 40vw;
+}
+
+.link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+      align-self: center;
 }
 /*# sourceMappingURL=(c) main.css.map */
