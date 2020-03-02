@@ -56,7 +56,7 @@ body {
   -webkit-transform: translateY(15rem);
           transform: translateY(15rem);
   color: white;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 @media (min-width: 350px) {
@@ -995,13 +995,5 @@ audio {
   background-position: center;
   background-size: cover;
   left: 40vw;
-}
-
-.link {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-item-align: center;
-      align-self: center;
 }
 /*# sourceMappingURL=(c) main.css.map */
