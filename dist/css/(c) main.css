@@ -996,4 +996,27 @@ audio {
   background-size: cover;
   left: 40vw;
 }
+
+.five-sect {
+  height: 105vh;
+  background-color: #8cdeb8;
+}
+
+@media (min-width: 350px) {
+  .five-sect {
+    height: 165vh;
+  }
+}
+
+@media (min-width: 750px) {
+  .five-sect {
+    height: 45vh;
+  }
+}
+
+@media (min-width: 1400px) {
+  .five-sect {
+    height: 45vh;
+  }
+}
 /*# sourceMappingURL=(c) main.css.map */

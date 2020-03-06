@@ -709,3 +709,16 @@ audio{
   left: 40vw;
 }
 
+.five-sect{
+  height: 105vh;
+  background-color: $analogous-color-1;
+  @include phone {
+    height: 165vh;
+  }
+  @include tablet {
+    height: 45vh;
+  }
+  @include laptop{
+    height: 45vh;
+  }
+}
