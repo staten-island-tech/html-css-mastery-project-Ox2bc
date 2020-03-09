@@ -1019,4 +1019,15 @@ audio {
     height: 45vh;
   }
 }
+
+.emails {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 10vh;
+  font-size: 4rem;
+}
 /*# sourceMappingURL=(c) main.css.map */
