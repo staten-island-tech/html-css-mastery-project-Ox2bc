@@ -1030,4 +1030,12 @@ audio {
   height: 10vh;
   font-size: 4rem;
 }
+
+.email-add {
+  height: 2rem;
+}
+
+.email-add:focus {
+  background-color: lightblue;
+}
 /*# sourceMappingURL=(c) main.css.map */
