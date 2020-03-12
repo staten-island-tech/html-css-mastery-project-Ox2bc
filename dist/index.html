@@ -11,7 +11,7 @@
     <title>Document</title>
   </head>
   <body>
-    <section class="splash-img-sect">
+    <section class="splash-img-sect" id="splash-img-sect">
       <section class="music-control">
         <audio controls>
           <source src="./media/Music.mp3" type="audio/mpeg" loop />
@@ -19,14 +19,23 @@
       </section>
       <section>
         <button class="menu-button">
-          <i class="material-icons">reorder</i>
+          MENU
         </button>
+        <section class="dropdown">
+          <section class="dropdown-content">
+            <a href="#splash-img-sect"></a>
+            <a href="#two-sect"></a>
+            <a href="#three-sect"></a>
+            <a href="#four-sect"></a>
+            <a href="#five-sect"></a>
+          </section>        
+        </section>
       </section>
       <section class="title">
         New York City
       </section>
     </section>
-    <section class="two-sect">
+    <section class="two-sect" id="two-sect">
       <section class="title-2">
         The Boroughs
       </section>
@@ -146,7 +155,7 @@
         </section>
       </section>
     </section>
-    <section class="three-sect">
+    <section class="three-sect" id="three-sect">
       <section class="title-3">
         Photo Gallery
       </section>
@@ -157,7 +166,7 @@
         <img src="./media/3sect-4.jpg" alt="" class="gal-photo liberty" />
       </section>
     </section>
-    <section class="four-sect">
+    <section class="four-sect" id="four-sect">
       <section class="title-4">
         Book Today
       </section>
@@ -179,7 +188,7 @@
         ></a>
       </section>
     </section>
-    <section class="five-sect">
+    <section class="five-sect" id="five-sect">
       <section class="emails">
         <form method="post" action="mailto:ox2bc33@gmail.com" >
           Your Email Address:<input class="email-add" type="text" name="Email Address" size="12" maxlength="12" />
