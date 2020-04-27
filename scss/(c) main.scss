@@ -69,41 +69,6 @@ body {
   }
 }
 
-.menu-button{
-  background-color: rgba(0,0,0,0);
-  border-radius: 15rem;
-}
-
-.dropdown{
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-content{
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  color: black;
-  padding: 8px 8px;
-  text-decoration: none;
-  display: block;
-  background-color: #f1f1f1;
-}
-
-.dropdown-content a:hover {
-  background-color: $background-color;
-}
-
-.dropdown:hover .dropdown-content{
-  display: block;
-}
-
 .title-2{
   display: flex;
   justify-content: space-around;
@@ -196,7 +161,7 @@ audio{
   font-size: 3rem;
   color: black;
   backface-visibility: hidden;
-  box-shadow: 0 1.5rem 4rem rgba(0,0,0,0.15);
+  box-shadow: 0 1.5rem 4rem rgba(140,140,140,0.15);
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -204,7 +169,7 @@ audio{
 }
 
 .man-card-side-front{
-  background-color: whitesmoke;
+    background-image: linear-gradient(whitesmoke, rgb(50, 50, 50));
   position: absolute;
   top: 0;
   left: 0;
@@ -221,7 +186,7 @@ audio{
 }
 
 .man-card-side-back{
-  background-color: whitesmoke;
+    background-image: linear-gradient(whitesmoke, rgb(50, 50, 50));
   font-size: 2rem;
   position: absolute;
   top: 0;
@@ -259,16 +224,16 @@ audio{
   font-size: 3rem;
   color: black;
   backface-visibility: hidden;
-  box-shadow: 0 1.5rem 4rem rgba(0,0,0,0.15);
+  box-shadow: 0 1.5rem 4rem rgba(140,140,140,0.15);
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
+
 }
 
 .bklyn-card-side-front{
-  background-color: whitesmoke;
-  position: absolute;
+  background-image: linear-gradient(whitesmoke, rgb(50, 50, 50));
   top: 0;
   left: 0;
   z-index: 1;
@@ -284,7 +249,7 @@ audio{
 }
 
 .bklyn-card-side-back{
-  background-color: whitesmoke;
+  background-image: linear-gradient(whitesmoke, rgb(50, 50, 50));
   font-size: 2rem;
   position: absolute;
   top: 0;
@@ -321,7 +286,7 @@ audio{
   font-size: 3rem;
   color: black;
   backface-visibility: hidden;
-  box-shadow: 0 1.5rem 4rem rgba(0,0,0,0.15);
+  box-shadow: 0 1.5rem 4rem rgba(140,140,140,0.15);
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -329,7 +294,7 @@ audio{
 }
 
 .SI-card-side-front{
-  background-color: whitesmoke;
+    background-image: linear-gradient(whitesmoke, rgb(50, 50, 50));
   position: absolute;
   top: 0;
   left: 0;
@@ -346,7 +311,7 @@ audio{
 }
 
 .SI-card-side-back{
-  background-color: whitesmoke;
+    background-image: linear-gradient(whitesmoke, rgb(50, 50, 50));
   font-size: 2rem;
   position: absolute;
   top: 0;
@@ -383,7 +348,7 @@ audio{
   font-size: 3rem;
   color: black;
   backface-visibility: hidden;
-  box-shadow: 0 1.5rem 4rem rgba(0,0,0,0.15);
+  box-shadow: 0 1.5rem 4rem rgba(140,140,140,0.15);
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -391,7 +356,7 @@ audio{
 }
 
 .Q-card-side-front{
-  background-color: whitesmoke;
+    background-image: linear-gradient(whitesmoke, rgb(50, 50, 50));
   position: absolute;
   top: 0;
   left: 0;
@@ -408,7 +373,7 @@ audio{
 }
 
 .Q-card-side-back{
-  background-color: whitesmoke;
+    background-image: linear-gradient(whitesmoke, rgb(50, 50, 50));
   font-size: 2rem;
   position: absolute;
   top: 0;
@@ -444,7 +409,7 @@ audio{
   font-size: 3rem;
   color: black;
   backface-visibility: hidden;
-  box-shadow: 0 1.5rem 4rem rgba(0,0,0,0.15);
+  box-shadow: 0 1.5rem 4rem rgba(140,140,140,0.15);
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -452,7 +417,7 @@ audio{
 }
 
 .Bx-card-side-front{
-  background-color: whitesmoke;
+    background-image: linear-gradient(whitesmoke, rgb(50, 50, 50));
   position: absolute;
   top: 0;
   left: 0;
@@ -469,7 +434,7 @@ audio{
 }
 
 .Bx-card-side-back{
-  background-color: whitesmoke;
+    background-image: linear-gradient(whitesmoke, rgb(50, 50, 50));
   font-size: 2rem;
   position: absolute;
   top: 0;
@@ -618,7 +583,7 @@ audio{
 }
 
 .four-sect{
-  height: 105vh;
+  height: 120vh;
   background-color: $complementary-color;
   @include phone {
     height: 165vh;
@@ -627,7 +592,7 @@ audio{
     height: 95vh;
   }
   @include laptop{
-    height: 125vh;
+    height: 130vh;
   }
 }
 
@@ -735,31 +700,31 @@ audio{
   left: 40vw;
 }
 
-.five-sect{
-  height: 105vh;
-  background-color: $analogous-color-1;
-  @include phone {
-    height: 165vh;
-  }
-  @include tablet {
-    height: 45vh;
-  }
-  @include laptop{
-    height: 45vh;
-  }
+.menu{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
 }
 
-.emails{
-  display: flex;
-  justify-content: center;
-  height: 10vh;
-  font-size: 4rem;
+.menu-item {
+  float: left;
 }
 
-.email-add{
-  height: 2rem;
+.menu-item a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 1.5rem 14rem;
+  text-decoration: none;
+  font-size: 1.5rem;
 }
 
-.email-add:focus{
-  background-color: lightblue;
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
 }

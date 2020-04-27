@@ -40,7 +40,7 @@ body {
   }
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1200px) {
   .two-sect {
     height: 95vh;
   }
@@ -56,7 +56,7 @@ body {
   -webkit-transform: translateY(15rem);
           transform: translateY(15rem);
   color: white;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 @media (min-width: 350px) {
@@ -71,7 +71,7 @@ body {
   }
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1200px) {
   .title {
     -webkit-animation-name: title-slide;
             animation-name: title-slide;
@@ -103,42 +103,6 @@ body {
   }
 }
 
-.menu-button {
-  background-color: rgba(0, 0, 0, 0);
-  border-radius: 15rem;
-}
-
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  -webkit-box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.2);
-          box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  color: black;
-  padding: 8px 8px;
-  text-decoration: none;
-  display: block;
-  background-color: #f1f1f1;
-}
-
-.dropdown-content a:hover {
-  background-color: #d5d5d5;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
 .title-2 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -163,7 +127,7 @@ body {
   }
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1200px) {
   .title-2 {
     font-size: 10rem;
   }
@@ -190,7 +154,7 @@ audio {
   }
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1200px) {
   audio {
     height: 4rem;
   }
@@ -215,7 +179,7 @@ audio {
   }
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1200px) {
   .bold-title {
     font-size: 3rem;
   }
@@ -250,7 +214,7 @@ audio {
   }
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1200px) {
   .card-sect {
     height: 80vh;
     -webkit-box-orient: horizontal;
@@ -281,8 +245,8 @@ audio {
   color: black;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
-  -webkit-box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
-          box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0 1.5rem 4rem rgba(140, 140, 140, 0.15);
+          box-shadow: 0 1.5rem 4rem rgba(140, 140, 140, 0.15);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -299,7 +263,8 @@ audio {
 }
 
 .man-card-side-front {
-  background-color: whitesmoke;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(whitesmoke), to(#323232));
+  background-image: linear-gradient(whitesmoke, #323232);
   position: absolute;
   top: 0;
   left: 0;
@@ -317,7 +282,8 @@ audio {
 }
 
 .man-card-side-back {
-  background-color: whitesmoke;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(whitesmoke), to(#323232));
+  background-image: linear-gradient(whitesmoke, #323232);
   font-size: 2rem;
   position: absolute;
   top: 0;
@@ -361,8 +327,8 @@ audio {
   color: black;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
-  -webkit-box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
-          box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0 1.5rem 4rem rgba(140, 140, 140, 0.15);
+          box-shadow: 0 1.5rem 4rem rgba(140, 140, 140, 0.15);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -379,8 +345,8 @@ audio {
 }
 
 .bklyn-card-side-front {
-  background-color: whitesmoke;
-  position: absolute;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(whitesmoke), to(#323232));
+  background-image: linear-gradient(whitesmoke, #323232);
   top: 0;
   left: 0;
   z-index: 1;
@@ -397,7 +363,8 @@ audio {
 }
 
 .bklyn-card-side-back {
-  background-color: whitesmoke;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(whitesmoke), to(#323232));
+  background-image: linear-gradient(whitesmoke, #323232);
   font-size: 2rem;
   position: absolute;
   top: 0;
@@ -440,8 +407,8 @@ audio {
   color: black;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
-  -webkit-box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
-          box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0 1.5rem 4rem rgba(140, 140, 140, 0.15);
+          box-shadow: 0 1.5rem 4rem rgba(140, 140, 140, 0.15);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -458,7 +425,8 @@ audio {
 }
 
 .SI-card-side-front {
-  background-color: whitesmoke;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(whitesmoke), to(#323232));
+  background-image: linear-gradient(whitesmoke, #323232);
   position: absolute;
   top: 0;
   left: 0;
@@ -476,7 +444,8 @@ audio {
 }
 
 .SI-card-side-back {
-  background-color: whitesmoke;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(whitesmoke), to(#323232));
+  background-image: linear-gradient(whitesmoke, #323232);
   font-size: 2rem;
   position: absolute;
   top: 0;
@@ -519,8 +488,8 @@ audio {
   color: black;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
-  -webkit-box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
-          box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0 1.5rem 4rem rgba(140, 140, 140, 0.15);
+          box-shadow: 0 1.5rem 4rem rgba(140, 140, 140, 0.15);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -537,7 +506,8 @@ audio {
 }
 
 .Q-card-side-front {
-  background-color: whitesmoke;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(whitesmoke), to(#323232));
+  background-image: linear-gradient(whitesmoke, #323232);
   position: absolute;
   top: 0;
   left: 0;
@@ -555,7 +525,8 @@ audio {
 }
 
 .Q-card-side-back {
-  background-color: whitesmoke;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(whitesmoke), to(#323232));
+  background-image: linear-gradient(whitesmoke, #323232);
   font-size: 2rem;
   position: absolute;
   top: 0;
@@ -598,8 +569,8 @@ audio {
   color: black;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
-  -webkit-box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
-          box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0 1.5rem 4rem rgba(140, 140, 140, 0.15);
+          box-shadow: 0 1.5rem 4rem rgba(140, 140, 140, 0.15);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -616,7 +587,8 @@ audio {
 }
 
 .Bx-card-side-front {
-  background-color: whitesmoke;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(whitesmoke), to(#323232));
+  background-image: linear-gradient(whitesmoke, #323232);
   position: absolute;
   top: 0;
   left: 0;
@@ -634,7 +606,8 @@ audio {
 }
 
 .Bx-card-side-back {
-  background-color: whitesmoke;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(whitesmoke), to(#323232));
+  background-image: linear-gradient(whitesmoke, #323232);
   font-size: 2rem;
   position: absolute;
   top: 0;
@@ -673,7 +646,7 @@ audio {
   }
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1200px) {
   .three-sect {
     height: 95vh;
   }
@@ -703,7 +676,7 @@ audio {
   }
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1200px) {
   .title-3 {
     font-size: 10rem;
   }
@@ -742,7 +715,7 @@ audio {
   }
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1200px) {
   .gal-sect {
     height: 80vh;
     -webkit-box-orient: horizontal;
@@ -774,7 +747,7 @@ audio {
   }
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1200px) {
   .times-sq {
     height: 55vh;
     width: 17.5vw;
@@ -795,7 +768,7 @@ audio {
   }
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1200px) {
   .bklyn-br {
     height: 55vh;
     width: 17.5vw;
@@ -816,7 +789,7 @@ audio {
   }
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1200px) {
   .man-br {
     height: 55vh;
     width: 17.5vw;
@@ -837,7 +810,7 @@ audio {
   }
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1200px) {
   .liberty {
     height: 55vh;
     width: 17.5vw;
@@ -860,7 +833,7 @@ audio {
 }
 
 .four-sect {
-  height: 105vh;
+  height: 120vh;
   background-color: #de8f8c;
 }
 
@@ -876,9 +849,9 @@ audio {
   }
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1200px) {
   .four-sect {
-    height: 125vh;
+    height: 130vh;
   }
 }
 
@@ -906,7 +879,7 @@ audio {
   }
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1200px) {
   .title-4 {
     font-size: 10rem;
   }
@@ -1024,45 +997,32 @@ audio {
   left: 40vw;
 }
 
-.five-sect {
-  height: 105vh;
-  background-color: #8cdeb8;
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
 }
 
-@media (min-width: 350px) {
-  .five-sect {
-    height: 165vh;
-  }
+.menu-item {
+  float: left;
 }
 
-@media (min-width: 750px) {
-  .five-sect {
-    height: 45vh;
-  }
+.menu-item a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 1.5rem 14rem;
+  text-decoration: none;
+  font-size: 1.5rem;
 }
 
-@media (min-width: 1400px) {
-  .five-sect {
-    height: 45vh;
-  }
+li a:hover:not(.active) {
+  background-color: #111;
 }
 
-.emails {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  height: 10vh;
-  font-size: 4rem;
-}
-
-.email-add {
-  height: 2rem;
-}
-
-.email-add:focus {
-  background-color: lightblue;
+.active {
+  background-color: #4CAF50;
 }
 /*# sourceMappingURL=(c) main.css.map */
